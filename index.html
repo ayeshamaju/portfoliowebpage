@@ -1,34 +1,68 @@
-
 <!DOCTYPE html>
-
-<html>
-
- <head>
- 
-<link href="style.css" rel="stylesheet" type="text/css" />
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	
-<title>Ayesha Majumdar</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>web page portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
   <body>
+    <header> <!-- My first and main header with h1 is my name and nav links to my about, intro and contact me areas on my portfolio -->
+      <div>
+        <h1> <b>Ayesha Majumdar</b> </h1>
+        <h3>Software Engineer</h3>
+        <hr>
+        
+        <nav><!-- links to certain areas of my webpage -->
+          <a href="#intro" class="btn">Intro</a>
+          <a href="#about" class = "btn">About</a>
+          <a href="#contact" class = "btn">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-  <script src="script.js"></script>
-<h1>Ayesha Majumdar </h1>
-<h2>Software Developer</h2>
-<p>Hi, I'm Ayesha.</p>
-<p>Welcome to my portfolio!</p>
-<p>I am currently a student at Thinkful in the Engineering Flex program, based out of St Paul,Minnesota.</p>
+  <main>
+    
+    <div>
+      
+        <article id="intro"><!-- this article is the intro and is just a little about me and where I live. -->
+          <!-- insert cartoon image of you here-->
+          <h2> INTRO </h2>
+          <img class="displayed" src="Images/me%20(1).jpg" alt="image of me" width="250" >
+          <p> <strong> Hi, I'm Ayesha Majumdar!!</strong> I am a software developer living in St Paul, Minnesota.</p> <p>Other areas of interest for me are <ul> <li>Cooking</li><li>Travelling</li><li>Reading</li><li>Gardening</li> </ul> 
+        </article>
+    </div>
+    <div>
+      <article id="about">
+         <!--this article is info about me and why I want to be a software engineer and my goal within the field -->
+          <h2> ABOUT </h2>
+          <p>While working as a successful financial analyst from a banking industry,I also found that I really enjoyed learning more new skills to grow myself in the software engineering field.
+As a student at Thinkful, I've begun my journey to becoming a software developer and couldn't be happier!</p> 
+        </article>
+    </div>
+  </main>
 
-<p>I'm passionate about learning to create websites and apps that are as visually appealing as they are functional.</p>
-
-<h4>Contact Me</h4>
-<p>GitHub</p>
-<p><a href="mailto:hello@yoursite.com">linkedin.com/in/ayesha-m-251064227</a></p>
-<a href="mailto:hello@yoursite.com">ayesha0majumdar@gmail.com</a>
-
-<footer>© Ayesha Majumdar</footer>
-</body>
+  <footer><!-- my footer will contain all the links to my github,linkedin, email and more over time -->
+    <section id="contact">
+      <h2> CONTACT</h2>
+      <hr>
+      <p> Feel free to contact me with any of the links below:</p>
+      <p>| Email:
+      <a href="mailto:ayesha0majumdar@gmail.com" target="_blank"> 
+        <img src="https://www.nidirect.gov.uk/sites/default/files/styles/inline-expandable/public/images/email_logo.jpg?itok=x1Bv04Wf" alt="Email Me" width="40">
+        </a>|
+      GitHub Profile:  
+      <a href="https://github.com/ayeshamaju" target="_blank"> 
+      <img src="https://cdn.tutsplus.com/net/uploads/2013/08/github-collab-retina-preview.gif" alt="GitHub Profile" width = "40">
+      </a>|
+      LinkedIn Profile:
+        <a href="www.linkedin.com/in/ayesha-m-251064227/" target="_blank">Linkedin</a>
+ |</p>
+    </section>
+  </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
